@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 body{
     font-family: 'Rowdies', cursive;
-    background-color:  rgb(158, 0, 0);
+    background-color:rgb(158, 0, 0);
     font-size: large;
   }
 
@@ -13,4 +13,12 @@ table,
     border: 2px black solid;
     border-collapse: collapse;
     padding: 1px;
+}
+hr{
+    border-color: black;
+    border-width: 2px;
+}
+h3{
+
+    background-color: #850000;
 }
