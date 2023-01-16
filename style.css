@@ -1,0 +1,18 @@
+body{
+    background-color: #CF0A0A;
+}
+
+.sobremim{
+    display: flex;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.header-position{
+    position: sticky;
+    top: 0;
+}
+.flexbox{
+    display: flex;
+}

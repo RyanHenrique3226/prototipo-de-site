@@ -1,88 +1,259 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ryan Henrique🎮</title>
-
-    <link rel="stylesheet" href="Estilo.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <style>
-      body{
-        font-size: large;
+        div .col, [class*='col-'] {
         
-      }
-    </style>
+        }
+        </style>
 
+    <title>Ryan Henrique</title>
   </head>
   <body>
 
-    <table style="border-style: double; border-collapse: unset;">
-      
-      <tr>
-
-        <td><img src="img/IMG-20221127-WA0007.jpg" alt="imagem de Ryan" width="150" /></td>
+      <header class="header-position">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#sobre-mim"><img src="img/icon.png" alt="icone" width="10%"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#sobre-mim">Sobre Mim</a>
+        </li>
         
-        <td><h1>Ryan Henrique</h1>
-        <p>Um estudante de programação muito empenhado em aprender.</p>
-        <p>Possuo ensino médio completo, um curso técnico de redes <br> e um certificado em <strong>Java, Python e MySql</strong></p>
-        <p> O link do meu <a style="color: rgb(61, 0, 18);" href="https://www.instagram.com/ups_bryan/">instagram</a></p>
-        </td>
-
-      </tr>
-
-      
-
-    </table>
-
-    <br><br>
-    <hr >
-    
-    
-
-      
-        <h3>Cursos e especificações:</h3>
-          <ul type = "square">
-              <li>Tecnico em redes de computadores - <strong> ETEGEC</strong> </li>
-              <li>Formação em HardSkills <i>(Python, Java, mysql)</i> e SoftSkills - <strong> Softex</strong> </li>
-      
+        <li class="nav-item">
+          <a class="nav-link" href="#Hobbies">Hobbies</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#recomendacao" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Recomendações
+          </a>
+          <ul class="dropdown-menu bg-dark dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#jogos">Jogos</a></li>
+            <li><a class="dropdown-item" href="#Series">Series/Filmes</a></li>
+            <li><a class="dropdown-item" href="#">Livros</a></li>
           </ul>
-      <br><br>
-      <hr>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<br><br>
+
+<h2 id="sobre-mim">Sobre Mim</h2>
+<hr style="border: solid 3px black;">
+<div style="margin: 50px;">
+
+
+  <div class="sobremim container-fluid flexbox" style="margin: 30px;max-width: 800px;">
+    <div class="row">
+    <img class="col-12 col-lg-6" src="img/IMG-20221127-WA0007.jpg" alt="" style="">
+    <p class="col-12 col-lg-6" style="text-align: justify;">Olá meu nome é Ryan Henrique, eu tenho 19 anos, possuo um curso técnico em redes e também possuo conhecimento nas liguagens Python e Java. Atualmente estou estudando CSS e html para me especializar mais e me tornar um desenvolvedor FullStack</p>
+    </div>
+  </div>
+</div>
+
+<br><br>
+
+<h2 id="Hobbies">Hobbies</h2>
+
+<br><br>
+
+  <div class="flexbox container">
+    <div class="row">
+      <div class="col-12 col-lg-3">
+    <div class="card-group text-center bg-transparent" style="width: 13rem;">
+      <img src="img/Jogos.webp" class="card-img-top" alt="Pessoa jogando">
+      <div class="card-body">
+        <h4 class="card-text">Jogar</h4>
+      </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-3">
+    <div class="card-group text-center bg-transparent" style="width: 13rem;">
+      <img src="img/Assistindo.jpg" class="card-img-top" alt="Pessoa Assistindo">
+      <div class="card-body">
+        <h4 class="card-text">Assistir</h4>
+      </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3">
+    <div class="card-group text-center bg-transparent" style="width: 16rem;">
+      <img src="img/Ler.jpg" class="card-img-top" alt="Pessoa lendo">
+      <div class="card-body">
+        <h4 class="card-text">Ler</h4>
+      </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3">
+    <div class="card-group text-center bg-transparent" style="width: 14rem;">
+      <img src="img/desenhar.jpg" class="card-img-top" alt="Pessoa desenhando">
+      <div class="card-body">
+        <h4 class="card-text">Desenhar</h4>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br><br>
+
+  <h2 id="recomendacao">Recomendações</h2>
+  <br><br>
+  <h3 id="jogos" style="color: white;" class="bg-dark">Jogos:</h3>
+
+  <div class="flexbox container row justify-content-around">
       
-        
-          <h3>Hobbies</h3>
 
-    <ul type = "square">
-        <li>Jogar</li>
-        <li>Assistir filmes e series</li>
-        <li>resolver problemas relacionados a programação</li>
-        <li>criar historias</li>
-        <li><a style="color: rgb(61, 0, 18);" href="siteDeDesenhos.html">Desenhar</a> </li>
+    <div class="card-group bg-transparent" style="max-width: 540px; border: 1px black solid; border-radius: 5px;">
+      
+      <div class="row">
+        <div class="col-lg-4 ">
+          <img src="img/GOW.jpg" class="img-fluid rounded-start" alt="God Of War">
+        </div>
+        <div class="col-lg-8">
+          <div class="card-body">
+            <h5 class="card-title">God Of War</h5>
+            <p class="card-text" style="text-align: justify;">Pela primeira vez na série, há dois protagonistas principais: Kratos, o antigo deus da guerra grego que é acompanhado por seu jovem filho Atreus. Após a morte da segunda esposa de Kratos e mãe de Atreus, eles viajam para cumprir sua promessa de espalhar suas cinzas no pico mais alto dos nove reinos.</p>
+            <p class="card-text"><small class="text-muted">Lançamento: 2018</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    </ul>
-        
+    <div class="card-group bg-transparent" style="max-width: 540px; border: 1px black solid; border-radius: 5px;">
+      <div class="row g-0">
+        <div class="col-lg-4">
+          <img src="img/Spider.jpg" class="img-fluid rounded-start" alt="Spider-Man">
+        </div>
+        <div class="col-lg-8">
+          <div class="card-body">
+            <h5 class="card-title">Spider-Man: Miles Morales</h5>
+            <p class="card-text" style="text-align: justify;">Uma guerra pelo controle da Nova York da Marvel estourou entre uma empresa de energia desonesta e um exército criminoso de alta tecnologia. Com o seu novo lar ameaçado pelo conflito, Miles deve descobrir o preço de se tornar um herói e decidir o que sacrificar pelo bem maior.</p>
+            <p class="card-text"><small class="text-muted">Lançamento: 2020</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="card-group mb-3 bg-transparent" style="max-width: 540px; border: 1px black solid; border-radius: 5px;">
+      <div class="row g-0">
+        <div class="col-lg-4">
+          <img src="img/TW3_Wild_Hunt.png" class="img-fluid rounded-start" alt="the Witcher 3">
+        </div>
+        <div class="col-lg-8">
+          <div class="card-body">
+            <h5 class="card-title">The Witcher 3: Wild Hunt</h5>
+            <p class="card-text" style="text-align: justify;">Wild Hunt é um grupo de espectros poderoso que causam terror em todos e raptam pessoas para se juntar a ordem. Eles estão perseguindo Ciri e, seu objetivo no papel de Geralt é encontrá-la antes dos inimigos, fazendo aliados pelo caminho.</p>
+            <p class="card-text"><small class="text-muted">Lançamento: 2015</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      </tr>
-
-
-
+    <div class="card-group mb-3 bg-transparent" style="max-width: 540px; border: 1px black solid; border-radius: 5px;">
+      <div class="row g-0">
+        <div class="col-lg-4">
+          <img src="img/It.takes.two.jpg" class="img-fluid rounded-start" alt="It takes two">
+        </div>
+        <div class="col-lg-8">
+          <div class="card-body">
+            <h5 class="card-title">It takes two</h5>
+            <p class="card-text">Jogue no papel do briguento casal Cody e May, dois humanos transformados em bonecos por um feitiço mágico. Preso em um mundo fantástico, o casal terá que salvar o seu relacionamento fragmentado como manda o Dr. Hakim, o guru do amor.</p>
+            <p class="card-text"><small class="text-muted">Lançamento: 2021</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
     
+    </div>
+
     <br><br>
 
+    <h3 id="Series" style="color: white;" class="bg-dark">Series/Filmes:</h3>
+
+    <br><br>
+ 
+    
+      <div class="container row">
+      <div class="card-group bg-transparent" style="max-width: 540px; border: 1px black solid; border-radius: 5px;">
+        
+        <div class="row">
+          <div class="col-lg-4 ">
+            <img src="img/Harry_Potter_and_the_Prisoner_of_Azkaban_2.webp" class="img-fluid rounded-start" alt="Harry Harry_Potter_and_the_Prisoner_of_Azkaban">
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">Harry Potter e o prisioneiro de azkaban</h5>
+              <p class="card-text" style="text-align: justify;">Pela primeira vez na série, há dois protagonistas principais: Kratos, o antigo deus da guerra grego que é acompanhado por seu jovem filho Atreus. Após a morte da segunda esposa de Kratos e mãe de Atreus, eles viajam para cumprir sua promessa de espalhar suas cinzas no pico mais alto dos nove reinos.</p>
+              <p class="card-text"><small class="text-muted">Lançamento: 2004</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card-group bg-transparent" style="max-width: 540px; border: 1px black solid; border-radius: 5px;">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/blooklyn99.jpg" class="img-fluid rounded-start" alt="Broklyn99">
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">Brooklyn 99</h5>
+              <p class="card-text" style="text-align: justify;">A série gira em torno de Jake Peralta (Andy Samberg) , um imaturo, mas talentoso, detetive da polícia de Nova York na fictícia 99. ª Delegacia do Brooklyn, que muitas vezes entra em conflito com seu novo comandante, o sério e severo capitão Raymond Holt (Andre Braugher).</p>
+              <p class="card-text"><small class="text-muted">Lançamento: 2013</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card-group mb-3 bg-transparent" style="max-width: 540px; border: 1px black solid; border-radius: 5px;">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/Iha do medo.jpg" class="img-fluid rounded-start" alt="Ilha do medo">
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">Ilha do medo</h5>
+              <p class="card-text" style="text-align: justify;">Nos anos 1950, a fuga de uma assassina leva o detetive Teddy Daniels e seu parceiro a investigarem o seu desaparecimento de um quarto trancado em um hospital psiquiátrico. Lá, uma rebelião se inicia e o agente terá que enfrentar seus próprios medos.</p>
+              <p class="card-text"><small class="text-muted">Lançamento: 2010</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card-group mb-3 bg-transparent" style="max-width: 540px; border: 1px black solid; border-radius: 5px;">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/HIMYM.jpg" class="img-fluid rounded-start" alt="HIMYM">
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">How i met your mother</h5>
+              <p class="card-text">Em 2030, o arquiteto Ted Mosby (Josh Radnor) conta a história sobre como conheceu a mãe dos seus filhos. Ele volta no tempo para 2005, relembrando suas aventuras amorosas em Nova York e a busca pela mulher dos seus sonhos.</p>
+              <p class="card-text"><small class="text-muted">Lançamento: 2005</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>  
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     
-        <center>
-          
-          <a href="Jogos.html"><img style="padding: 2px; margin-right: 10px;" src="img/—Pngtree—vdeo games console neon style_5984009.png" alt="joystic" width="90px"></a>
-          <a href="Series.html"><img style="margin-left: 10px;" src="img/botão play.png" alt="Botão play" width="90px"></a>
-      
-        </center>
-      
-
-    <center><h2>Clique aqui</h2></center>
-    
-
-
   </body>
 </html>
